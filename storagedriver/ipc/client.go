@@ -10,7 +10,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/docker/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver"
 	"github.com/docker/libchan"
 	"github.com/docker/libchan/spdy"
 )

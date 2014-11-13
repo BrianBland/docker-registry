@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/docker/docker-registry/configuration"
+	"github.com/BrianBland/docker-registry/configuration"
 )
 
 // TestAppDispatcher builds an application with a test dispatcher and ensures

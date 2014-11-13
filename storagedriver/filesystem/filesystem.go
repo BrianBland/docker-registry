@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/docker/docker-registry/storagedriver"
-	"github.com/docker/docker-registry/storagedriver/factory"
+	"github.com/BrianBland/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver/factory"
 )
 
 const DriverName = "filesystem"

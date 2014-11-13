@@ -3,7 +3,7 @@ package registry
 import (
 	"net/http"
 
-	"github.com/docker/docker-registry/configuration"
+	"github.com/BrianBland/docker-registry/configuration"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/mux"

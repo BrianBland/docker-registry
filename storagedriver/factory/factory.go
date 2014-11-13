@@ -3,8 +3,8 @@ package factory
 import (
 	"fmt"
 
-	"github.com/docker/docker-registry/storagedriver"
-	"github.com/docker/docker-registry/storagedriver/ipc"
+	"github.com/BrianBland/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver/ipc"
 )
 
 // driverFactories stores an internal mapping between storage driver names and their respective

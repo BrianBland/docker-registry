@@ -5,7 +5,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/docker/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver"
 	"github.com/docker/libchan"
 )
 

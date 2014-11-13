@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/docker/docker-registry/storagedriver/filesystem"
-	"github.com/docker/docker-registry/storagedriver/ipc"
+	"github.com/BrianBland/docker-registry/storagedriver/filesystem"
+	"github.com/BrianBland/docker-registry/storagedriver/ipc"
 )
 
 // An out-of-process filesystem driver, intended to be run by ipc.NewDriverClient

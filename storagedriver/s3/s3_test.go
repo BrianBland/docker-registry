@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/BrianBland/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver/testsuites"
 	"github.com/crowdmob/goamz/aws"
-	"github.com/docker/docker-registry/storagedriver"
-	"github.com/docker/docker-registry/storagedriver/testsuites"
 	. "gopkg.in/check.v1"
 )
 

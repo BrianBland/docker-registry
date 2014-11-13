@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/docker/docker-registry/storagedriver/ipc"
-	"github.com/docker/docker-registry/storagedriver/s3"
+	"github.com/BrianBland/docker-registry/storagedriver/ipc"
+	"github.com/BrianBland/docker-registry/storagedriver/s3"
 )
 
 // An out-of-process S3 driver, intended to be run by ipc.NewDriverClient

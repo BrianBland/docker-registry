@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/docker/docker-registry"
+	"github.com/BrianBland/docker-registry"
 )
 
 // Client implements the client interface to the registry http api

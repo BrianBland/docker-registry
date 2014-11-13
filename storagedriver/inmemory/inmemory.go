@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker-registry/storagedriver"
-	"github.com/docker/docker-registry/storagedriver/factory"
+	"github.com/BrianBland/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver/factory"
 )
 
 const DriverName = "inmemory"

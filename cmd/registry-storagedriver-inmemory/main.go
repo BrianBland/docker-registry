@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/docker/docker-registry/storagedriver/inmemory"
-	"github.com/docker/docker-registry/storagedriver/ipc"
+	"github.com/BrianBland/docker-registry/storagedriver/inmemory"
+	"github.com/BrianBland/docker-registry/storagedriver/ipc"
 )
 
 // An out-of-process inmemory driver, intended to be run by ipc.NewDriverClient

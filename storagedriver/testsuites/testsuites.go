@@ -8,8 +8,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/docker-registry/storagedriver"
-	"github.com/docker/docker-registry/storagedriver/ipc"
+	"github.com/BrianBland/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver/ipc"
 
 	. "gopkg.in/check.v1"
 )

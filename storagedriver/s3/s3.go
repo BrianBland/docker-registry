@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/BrianBland/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver/factory"
 	"github.com/crowdmob/goamz/aws"
 	"github.com/crowdmob/goamz/s3"
-	"github.com/docker/docker-registry/storagedriver"
-	"github.com/docker/docker-registry/storagedriver/factory"
 )
 
 const DriverName = "s3"

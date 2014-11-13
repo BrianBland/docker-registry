@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker-registry/storagedriver"
-	"github.com/docker/docker-registry/storagedriver/testsuites"
+	"github.com/BrianBland/docker-registry/storagedriver"
+	"github.com/BrianBland/docker-registry/storagedriver/testsuites"
 	. "gopkg.in/check.v1"
 )
 
